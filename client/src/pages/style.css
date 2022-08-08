@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Marck+Script&display=swap');
+
+.header h1 {
+    color: whitesmoke;
+    font-size: 4em;
+    border-bottom-style: solid;
+    border-color: white;
+    font-family: 'Marck Script', cursive;
+}
+
+.footer h1 {
+    border-bottom-style: solid;
+    border-color: white;
+    font-family: 'Marck Script', cursive;
+
+}
+
+#headSctn {
+    border-width: 10px;
+    background-color: rgb(34, 25, 25);
+}
+
+#asideSctn {
+    background-color: rgb(34, 25, 25);
+    color: white;
+}
+
+.footer {
+    background-color: rgb(34, 25, 25);
+    color: white;
+    min-height: 190px;
+
+}
+
+#bodybottom {
+    margin-bottom: 190px;
+}
+
+#popMeals {
+    font-size: 1.5em;
+    list-style-type: none;
+}
+
+#loginCard {
+    border-radius:25px;
+    background-color: rgb(211, 211, 255);
+}
+
+#registerbtn {
+    width: 100px;
+}
+
+#loginbtn {
+    width: 100px;
+}
+
+#logoutbtn {
+    width: 100px;
+}
+
+.footer h5 {
+    font-size: smaller;
+}
+
+.footer p {
+    font-size: smaller;
+}
+
+#registerCard {
+    border-radius:25px;
+    background-color: rgb(211, 211, 255);
+}
+
+.cardbg {
+    background-color: rgb(142, 142, 185);
+    border-radius: 25px;
+}
+
+#mealCard {
+    background-color: rgb(247, 247, 208);
+    min-width: 50%;
+    max-width: 50%;
+}
+
+#recipeCard {
+    background-color: rgb(247, 247, 208);
+    border-radius: 25px;
+}
+
+.merckScript {
+    font-family: 'Marck Script', cursive !important;
+}
+
+.bloo2 {
+    font-family: 'Baloo 2', cursive;
+}
+
+.pbor {
+    border-bottom-style: solid;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.userPitch {
+    margin-left:25%;
+    margin-right:25%;
+}
+
+#genMeal {
+    height: 125px;
+    width: 175px;
+}
+
+#homeCard {
+    background-color: rgb(212, 247, 212);
+    border-radius:25px;
+}
+
+.lists {
+    list-style-type: none;
+}
+
+.sidelinks {
+    text-decoration: none;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+#recipeimg {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.bodyStyle {
+    background-image: url('https://static.vecteezy.com/system/resources/previews/000/118/134/large_2x/free-fast-food-vector.jpg');
+    /* height: 100vh; */
+}

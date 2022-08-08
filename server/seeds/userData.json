@@ -1,0 +1,20 @@
+[
+  {
+    "username": "Jeungsoo",
+    "email": "soo@gmail.com",
+    "password": "password12345",
+    "mealplans": []
+  },
+  {
+    "username": "Jacqueline",
+    "email": "jacqueline@yahoo.com",
+    "password": "password12345",
+    "mealplans": []
+  },
+  {
+    "username": "Julian",
+    "email": "julian@aol.com",
+    "password": "password12345",
+    "mealplans": []
+  }
+]
