@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# What's for Dinner? ![Mit License](https://img.shields.io/badge/License-Mit%20License-brightgreen)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+https://wfd-react.herokuapp.com/
 
-In the project directory, you can run:
+### What does What's for Dinner? do?
 
-### `npm start`
+This project allows users to create and share mealplans from a database of meals. This project also uses a npm recipe scraper package to allow users to view recipes for each meal that is part of the database.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This is a remake of another project using MongoDB, Graphql, and React.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Table of Contents
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [Contribution](#contribution)
+- [Questions](#questions)
+- [Licence](#licence)
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Technologies Used in Development
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Technologies used include:
 
-### `npm run eject`
+This project is a fullstack project that uses MongoDB, Graphql and React, aswell as a recipe scraper package.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Installation Instructions
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```md
+visit deployment on heroku!
+https://wfd-react.herokuapp.com/
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Usage
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![project screenshot](./example.png)
 
-## Learn More
+```md
+First the user should create an account. Then the user can view mealplans to add to their account, create new mealplans, or view recipes for the various meals on the database.
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Credits
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The original unfinished project was started by github users jacih, Jeungs and myself.
 
-### Code Splitting
+## Contribution
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Guidelines for contribution:
 
-### Analyzing the Bundle Size
+Next steps for development are tags for meals and plans to be able to search efficiently, a way for users to submit new meals/recipes, and a calendar that would be able to be used to keep track of upcoming meals.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Questions
 
-### Making a Progressive Web App
+No contact please
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+https://github.com/jq67
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+## Licence
+This project is covered under the `Mit License`
