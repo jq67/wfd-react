@@ -73,6 +73,8 @@ const Allmeals = () => {
             }
 
             console.log(data)
+            alert("Plan created!")
+            window.location.replace('/profile')
         } catch (err) {
             console.error(err)
         }

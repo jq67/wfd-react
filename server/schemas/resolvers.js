@@ -72,6 +72,12 @@ const resolvers = {
     },
     
     createUser: async (parent, { username, email, password }) => {
+      const list = await User.find()
+      for (let i = 0; i < list.length; i++) {
+        if (list[i].username == username && list[i].email == email) {
+          throw new UserInputError("User already exists!")
+        }
+      }
       const user = await User.create({ username, email, password });
       const token = signToken(user);
 
