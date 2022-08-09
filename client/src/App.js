@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { ApolloClient, ApolloProvider, InMemoryCache, createHttpLink } from '@apollo/client';
 import { setContext } from '@apollo/client/link/context';
@@ -20,8 +20,8 @@ import './pages/style.css'
 import Auth from './utils/auth'
 
 const httpLink = createHttpLink({
-  uri: '/graphql',
-  // uri: 'http://localhost:3001/graphql'
+  // uri: '/graphql',
+  uri: 'http://localhost:3001/graphql'
 });
 
 const authLink = setContext((_, { headers }) => {
@@ -42,7 +42,9 @@ const client = new ApolloClient({
 });
 
 function App() {
-  
+  useEffect(() => {
+    document.title = "Whats for Dinner?"
+  }, []);
   
   return (
     <ApolloProvider client={client}>
